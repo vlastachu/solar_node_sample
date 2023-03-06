@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/vladchuprin/.nvm/versions/node/v12.22.1/bin/node /Users/vladchuprin/.nvm/versions/node/v12.22.1/bin/yarn add @solar/client
+
+PATH: 
+  /Users/vladchuprin/.sdkman/candidates/kotlin/current/bin:/Users/vladchuprin/.nvm/versions/node/v12.22.1/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/vladchuprin/.cargo/bin:/usr/local/bin:/Users/vladchuprin/Library/Android/sdk/tools:/Users/vladchuprin/Library/Android/sdk/platform-tools:/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home:/Users/vladchuprin/Library/Android/sdk/build-tools/30.0.3:/usr/local/opt/python@3.10/libexec/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  12.22.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@solar%2fclient: Not found
+      at Request.params.callback [as _callback] (/Users/vladchuprin/.nvm/versions/node/v12.22.1/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/Users/vladchuprin/.nvm/versions/node/v12.22.1/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/Users/vladchuprin/.nvm/versions/node/v12.22.1/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/Users/vladchuprin/.nvm/versions/node/v12.22.1/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1241:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "solar",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
